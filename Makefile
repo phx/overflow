@@ -15,4 +15,4 @@ macos-llvm:
 	$(CC) -o overflow.ll -S -emit-llvm $(CFLAGS) overflow.c
 
 clean:
-	rm -f overflow overflow.llvm
+	rm -f overflow overflow.ll
