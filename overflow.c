@@ -1,14 +1,7 @@
-# include <stdio.h>
+#include <string.h>
 
-void return_input(void){
-
-    char array[32];
-    gets(array);
-    printf("%s\n", array);
-}
-
-main(){
-    return_input();
-    return 0;
+int main(int argc, char *argv[]){
+    char buf[32];
+    strcpy(buf, argv[1]);
 }
 
