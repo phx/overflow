@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void return_input(void){
 
     char array[32];
@@ -5,7 +7,7 @@ void return_input(void){
     printf("%s\n", array);
 }
 
-main(){
+int main(){
     return_input();
     return 0;
 }
