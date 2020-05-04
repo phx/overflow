@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <signal.h>
 
 void return_input(void){
 
