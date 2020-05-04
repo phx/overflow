@@ -7,7 +7,7 @@ void return_input(void){
     printf("%s\n", array);
 }
 
-int main(){
+main(){
     return_input();
     return 0;
 }
