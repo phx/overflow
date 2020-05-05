@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include <string.h>
+# include <stdio.h>
 
-int main(int argc, char *argv[]){
-    char buf[32];
-    strcpy(buf, argv[1]);
-    printf("%s\n", buf);
+int main(){
+    char array[32];
+    gets(array);
+    printf("%s\n", array);
 }
 
