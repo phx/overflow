@@ -8,7 +8,7 @@ int main(int argc, char * argv[]){
     if (argc == 1) {
         printf("Usage: %s argument\n", argv[0]);
     }
-    strcopy(buf,argv[1]);
+    strcopy(buf, argv[1]);
     printf("%s", buf);
 
     return 0;
