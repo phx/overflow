@@ -1,4 +1,4 @@
-CFLAGS := -fno-stack-protector
+CFLAGS := -fno-stack-protector -D_FORTIFY_SOURCE=0 -Wl,-no_pie,-allow_stack_execute -g
 
 overflow: overflow.c
 	$(CC) -o overflow $(CFLAGS) overflow.c
